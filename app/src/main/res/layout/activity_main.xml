@@ -59,7 +59,7 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="80"
+        android:layout_width="80dp"
         android:layout_height="41dp"
         app:srcCompat="@drawable/foto6"
         tools:layout_editor_absoluteX="216dp"
