@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".ODS14Activity">
 
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="419dp"
+        android:layout_height="301dp"
+        app:srcCompat="@drawable/foto13"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="341dp"
+        android:layout_height="254dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="430dp" />
 </android.support.constraint.ConstraintLayout>
