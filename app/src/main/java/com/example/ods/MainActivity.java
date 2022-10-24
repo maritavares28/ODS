@@ -54,7 +54,14 @@ public class MainActivity extends AppCompatActivity {
         });
         //ODS5
         btn5 = findViewById(R.id.btn5);
-        
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS5 = onNewIntent(getApplicationContext(),ODS5Activity.class);
+                startActivity(telaODS5);
+            }
+
+        }};
 
 
     }
