@@ -6,14 +6,14 @@ import android.widget.Button;
 
 public class ODS15Activity extends AppCompatActivity {
 
-    Button btnVoltar;
+    Button btnVoltar15;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ods15);
 
 
-        btnVoltar = findViewById(R.id.btnVoltar);
+        btnVoltar15 = findViewById(R.id.btnVoltar15);
     }
 }
 
