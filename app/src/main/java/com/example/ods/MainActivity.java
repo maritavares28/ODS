@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     // declarar os botoes
-    Button btn1,btn2,btn3,btn4,btn5,bt6,btn7,btn8,btn9,btn10;
+    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10,btn11,btn12,btn13,btn14,btn15,btn16,btn17;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaODS4 = onNewIntent(getApplicationContext(),ODS4Activity.class);
+                Intent telaODS4 = new Intent(getApplicationContext(), ODS4Activity.class);
                 startActivity(telaODS4);
             }
 
@@ -57,12 +57,48 @@ public class MainActivity extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaODS5 = onNewIntent(getApplicationContext(),ODS5Activity.class);
+                Intent telaODS5 = new Intent(getApplicationContext(), ODS5Activity.class);
                 startActivity(telaODS5);
             }
 
-        }};
+        });
+        //ODS6
+        btn6 = findViewById(R.id.btn6);
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS6 = new Intent(getApplicationContext(),ODS6Activity.class);
+                startActivity(telaODS6);
+            }
+        });
+
+        //ODS7
+    btn7 = findViewById(R.id.btn7);
+    btn7.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent telaODS7 = new Intent(getApplicationContext(),ODS7Activity.class);
+            startActivity(telaODS7);
+        }
+    });
+
+    btn8 = findViewById(R.id.btn8);
+    btn8.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent telaODS8 = new Intent(getApplicationContext(),ODS8Activity.class);
+            startActivity(telaODS8);
+        }
+    });
 
 
-    }
-}
+    btn9 = findViewById(R.id.btn9);
+    btn9.setOnClickListener(new View.OnClickListener() {
+         @Override
+         public void onClick(View view) {
+                Intent telaODS9= new Intent(getApplicationContext(),ODS9Activity.class);
+                startActivity(telaODS9);
+         }
+    });
+
+
