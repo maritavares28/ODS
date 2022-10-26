@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/btn12"
         android:layout_width="75dp"
         android:layout_height="30dp"
         android:text="ODS 12"
@@ -107,7 +107,7 @@
         tools:layout_editor_absoluteY="392dp" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/btn13"
         android:layout_width="75dp"
         android:layout_height="30dp"
         android:layout_marginStart="12dp"
@@ -361,7 +361,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/btn13"
         app:srcCompat="@drawable/foto16" />
 
     <Button

@@ -101,4 +101,89 @@ public class MainActivity extends AppCompatActivity {
          }
     });
 
+    btn10 = findViewById(R.id.btn10);
+    btn10.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent telaODS10 = new Intent(getApplicationContext(),ODS10Activity.class);
+            startActivity(telaODS10);
+        }
+    });
+//ODS10
+        btn10 = findViewById(R.id.btn10);
+        btn10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS10 = new Intent(getApplicationContext(),ODS10Activity.class);
+                startActivity(telaODS10);
+            }
+        });
+//ODS11
+        btn11 = findViewById(R.id.btn11);
+        btn11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS11 = new Intent(getApplicationContext(),ODS11Activity.class);
+                startActivity(telaODS11);
+            }
+        });
+
+        //ODS12
+        btn12 = findViewById(R.id.btn12);
+        btn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS12 = new Intent(getApplicationContext(),ODS12Activity.class);
+                startActivity(telaODS12);
+            }
+        });
+
+        //ODS13
+        btn13 = findViewById(R.id.btn13);
+        btn13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS13 = new Intent(getApplicationContext(),ODS13Activity.class);
+                startActivity(telaODS13);
+            }
+        });
+        btn14 = findViewById(R.id.btn14);
+        btn14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS14= new Intent(getApplicationContext(),ODS14Activity.class);
+                startActivity(telaODS14);
+            }
+        });
+        btn15 = findViewById(R.id.btn15);
+        btn15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS15 = new Intent(getApplicationContext(),ODS15Activity.class);
+                startActivity(telaODS15);
+            }
+        });
+
+        //ODS16
+        btn16 = findViewById(R.id.btn16);
+        btn16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS16 = new Intent(getApplicationContext(),ODS16Activity.class);
+                startActivity(telaODS16);
+            }
+        });
+
+        //ODS 17
+        btn17 = findViewById(R.id.btn17);
+        btn17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaODS17 = new Intent(getApplicationContext(),ODS17Activity.class);
+                startActivity(telaODS17);
+            }
+        });
+
+
+
 

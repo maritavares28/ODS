@@ -11,7 +11,7 @@ public class ODS1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ods2);
+        setContentView(R.layout.activity_ods1);
 
         btnVoltar = findViewById(R.id.btnVoltar);
 
